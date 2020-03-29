@@ -1,0 +1,12 @@
+#Yandex Spider
+User-agent: Yandex
+Disallow: /
+
+#Baiduspider
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: *#Standard exclusions
+Disallow: /css/Disallow: /inc/
+Disallow: /js/#Database related files
+
