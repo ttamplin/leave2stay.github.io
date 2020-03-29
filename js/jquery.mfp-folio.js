@@ -26,21 +26,6 @@ $(function () {
      }
 });
 
-// Fancybox
-$(document).ready(function() {
-	$(".inline").fancybox({
-		autoSize	: true,
-		closeClick	: true,
-		openEffect	: 'elastic',
-		closeEffect	: 'fade',
-		helpers: {
-        overlay: {
-            locked: false
-        	}
-    	}
-	});
-});
-
 // Panel Toggles
 $(document).ready(function(){
 	$(".trigger1").click(function(){
@@ -150,4 +135,19 @@ $("#contact-form").submit(function(event){
 
     event.preventDefault();
 
+});
+
+// Fancybox
+$(document).ready(function() {
+    $(".inline").fancybox({
+        autoSize    : true,
+        closeClick  : true,
+        openEffect  : 'elastic',
+        closeEffect : 'fade',
+        helpers: {
+        overlay: {
+            locked: false
+            }
+        }
+    });
 });
