@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="initial-scale=1">
@@ -7,9 +7,9 @@
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![endif]-->
-<link href="https://fonts.googleapis.com/css?family=Geo|Squada+One" rel="stylesheet" type="text/css">
-<link href="/css/portfolio.css" rel="stylesheet" type="text/css">
-<link href="/css/fancybox/jquery.fancybox-custom.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Geo%7CSquada+One' rel='stylesheet' type='text/css'>
+<link href="css/portfolio.css" rel="stylesheet" type="text/css">
+<link href="css/fancybox/jquery.fancybox-custom.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="bg">
@@ -17,14 +17,14 @@
   <div class="container">
     <div class="audio-col">
       <h1>Audio Player</h1>
-      <audio preload="" src="/audio/Aint-Nothing-Like-You.mp3"></audio>
+      <audio preload="none" src="/audio/Aint-Nothing-Like-You.mp3"></audio>
     </div>
     <div class="half-col">
       <h1>Select-a-Track</h1>
       <ol>
         <li class="playing"><a href="#" data-src="/audio/Aint-Nothing-Like-You.mp3">BlakRoc</a></li>
-        <li><a href="#" data-src="/audio/Start-Wearing-Purple.mp3">Gogol Bordello</a></li>
-        <li><a href="#" data-src="/audio/FreeDumbs.mp3">All Good Funk Alliance</a></li>
+        <li><a href="#" data-src="http://www.mightyfinephotography.com/audio/Start-Wearing-Purple.mp3">Gogol Bordello</a></li>
+        <li><a href="#" data-src="http://www.mightyfinephotography.com/audio/FreeDumbs.mp3">All Good Funk Alliance</a></li>
         <li><a href="#" data-src="/audio/Rebirth-of-Slick.mp3">Digable Planets</a></li>
       </ol>
     </div>
@@ -36,7 +36,7 @@
     <div class="half-col">
       <h1>Do it Yourself</h1>
       <p>Email: tristan@mightyfinephotography.com<br>
-        Twitter: @leave2stay</p>
+        Twitter: @nikon4me</p>
     </div>
     <div class="half-col">
       <h1>Do it Here</h1>
@@ -58,7 +58,7 @@
 <div id="wrapper">
   <header> <a href="/"><img class="retina" src="assets/mfp-logo.png" width="190" height="100" alt="Mighty Fine Photography" id="logo"></a>
     <nav class="main">
-      <p><a class="trigger2">audio</a><a class="trigger1">contact</a><a href="https://twitter.com/leave2stay" target="_blank">twitter</a></p>
+      <p><a class="trigger2">audio</a><a class="trigger1">contact</a><a href="https://twitter.com/nikon4me" target="_blank">twitter</a></p>
     </nav>
     <nav class="mobile"> <a class="trigger2"><img class="retina" src="css/ribbon-audio.png" width="33" height="67" alt="audio"></a><a class="trigger1"><img class="retina" src="css/ribbon-contact.png" width="33" height="67" alt="contact"></a> </nav>
   </header>
@@ -126,9 +126,9 @@
         <div class="enlarge">+</div>
         </a> </div>
     </div>
-    <div class="box img-box vert"> <img src="photos/cow-thumb.jpg" width="148" height="148" alt="Kevin">
+    <div class="box img-box vert"> <img src="photos/cow-thumb.jpg" width="148" height="148" alt="Carl, who is a Cow">
       <div class="mask"> <a href="photos/cow.jpg" class="inline photo-info">
-        <h2>Kevin</h2>
+        <h2>Carl, who is a Cow</h2>
         <p>Roadside, Near Edinburgh<br>
           &copy;2007</p>
         <div class="enlarge">+</div>
@@ -259,13 +259,13 @@
   <div class="clear"></div>
   <footer>
     <div class="penguin show-480"></div>
-    <p>&copy;2013-2020 Tristan Tamplin. Feel free to look around, but please leave things as you found them.</p>
+    <p>&copy;2013 Tristan Tamplin. Feel free to look around, but please leave things as you found them.</p>
   </footer>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="/js/jquery.masonry.min.js"></script>
-<script src="/js/jquery.fancybox.pack.js"></script>
-<script src="/js/audiojs/audio.min.js"></script>
-<script src="/js/jquery.mfp-folio.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+<script src="js/jquery.masonry.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/audiojs/audio.min.js"></script> 
+<script src="js/jquery.mfp-folio.js"></script>
 </body>
 </html>
