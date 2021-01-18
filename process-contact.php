@@ -6,8 +6,8 @@ $EmailTo = "tristan@mightyfinephotography.com";
 
 //remove escaping or magic quotes
 $Subject = Trim(stripslashes($_POST['subject']));
-$contactname = Trim(stripslashes($_POST['name']));
-$contactemail = Trim(stripslashes($_POST['email'])); 
+$name = Trim(stripslashes($_POST['name']));
+$email = Trim(stripslashes($_POST['email'])); 
 $message = Trim(stripslashes($_POST['message'])); 
 
 // check for submission

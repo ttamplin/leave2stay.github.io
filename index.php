@@ -43,8 +43,8 @@
       <form id="contact-form">
         <div id="error"><span>Whoops!</span></div>
         <input type="hidden" name="subject" value="MFP Contact Form">
-        <input type="text" name="name" placeholder="Name" class="gutter">
-        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="name" id="name" placeholder="Name" class="gutter">
+        <input type="text" name="email" id="email" placeholder="Email">
         <textarea name="message" id="message" rows="3" placeholder="Message"></textarea>
         <input type="submit" class="process" value="Send">
       </form>
