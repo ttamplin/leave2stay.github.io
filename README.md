@@ -1,2 +1,2 @@
-# leave2stay.github.io
+# MFP Website
 Personal photography portfolio website
