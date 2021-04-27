@@ -63,7 +63,7 @@
     <nav class="mobile"> <a class="trigger2"><img class="retina" src="css/ribbon-audio.png" width="33" height="67" alt="audio"></a><a class="trigger1"><img class="retina" src="css/ribbon-contact.png" width="33" height="67" alt="contact"></a> </nav>
   </header>
   <article id="loading">
-    <div class="loading-container"> <img class="retina" src="assets/mfp-splash-banner.png" width="500" height="110" alt="MFP" />
+    <div class="loading-container"><img class="retina" src="assets/mfp-splash-banner.png" width="500" height="110" alt="MFP" />
       <div class="links">
         <p>Loading images...</p>
       </div>
